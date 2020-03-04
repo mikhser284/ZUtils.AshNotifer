@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
+using ZUtils.AshNotifer.Extensions;
 
 namespace ZUtils.AshNotifer.CUI
 {
@@ -6,7 +11,7 @@ namespace ZUtils.AshNotifer.CUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(LanInfo.GetLanInfo());
         }
-    }
+    }    
 }

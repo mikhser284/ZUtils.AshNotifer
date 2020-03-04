@@ -3,20 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer", "ZUtils.AshNotifer\ZUtils.AshNotifer.csproj", "{A7E9959B-F162-4E83-AAE8-6795CB4CC669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtils.AshNotifer", "ZUtils.AshNotifer\ZUtils.AshNotifer.csproj", "{A7E9959B-F162-4E83-AAE8-6795CB4CC669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.CUI", "ZUtils.AshNotifer.CUI\ZUtils.AshNotifer.CUI.csproj", "{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtils.AshNotifer.CUI", "ZUtils.AshNotifer.CUI\ZUtils.AshNotifer.CUI.csproj", "{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.GUI", "ZUtils.AshNotifer.GUI\ZUtils.AshNotifer.GUI.csproj", "{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtils.AshNotifer.GUI", "ZUtils.AshNotifer.GUI\ZUtils.AshNotifer.GUI.csproj", "{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.GUI.UiControls", "ZUtils.AshNotifer.GUI.UiControls\ZUtils.AshNotifer.GUI.UiControls.csproj", "{F29F8517-5241-4C09-BEF7-EA081D232755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtils.AshNotifer.GUI.UiControls", "ZUtils.AshNotifer.GUI.UiControls\ZUtils.AshNotifer.GUI.UiControls.csproj", "{F29F8517-5241-4C09-BEF7-EA081D232755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.Service", "ZUtils.AshNotifer.Service\ZUtils.AshNotifer.Service.csproj", "{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_PowershellScripts", "_PowershellScripts", "{12A935C1-EB02-4678-B778-C944AEF6B092}"
-	ProjectSection(SolutionItems) = preProject
-		_PowershellScripts\ReInstallService.ps1 = _PowershellScripts\ReInstallService.ps1
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtils.AshNotifer.Service", "ZUtils.AshNotifer.Service\ZUtils.AshNotifer.Service.csproj", "{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 #Powershell v7
 
-$MyServiceName = 'MySuperPuperService'
-$MyServicePath = 'C:\_AppPublish\BackgroundWorker.exe'
+$MyServiceName = 'ZUtils.AshNotiferService'
+$MyServicePath = 'C:\_AppPublish\_AshNotiferService\ZUtils.AshNotifer.Service.exe'
 Clear-Host;
 $ServiceExist = $false
 
