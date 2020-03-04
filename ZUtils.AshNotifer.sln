@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer", "ZUtils.AshNotifer\ZUtils.AshNotifer.csproj", "{A7E9959B-F162-4E83-AAE8-6795CB4CC669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.CUI", "ZUtils.AshNotifer.CUI\ZUtils.AshNotifer.CUI.csproj", "{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.GUI", "ZUtils.AshNotifer.GUI\ZUtils.AshNotifer.GUI.csproj", "{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.GUI.UiControls", "ZUtils.AshNotifer.GUI.UiControls\ZUtils.AshNotifer.GUI.UiControls.csproj", "{F29F8517-5241-4C09-BEF7-EA081D232755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtils.AshNotifer.Service", "ZUtils.AshNotifer.Service\ZUtils.AshNotifer.Service.csproj", "{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_PowershellScripts", "_PowershellScripts", "{12A935C1-EB02-4678-B778-C944AEF6B092}"
+	ProjectSection(SolutionItems) = preProject
+		_PowershellScripts\ReInstallService.ps1 = _PowershellScripts\ReInstallService.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E9959B-F162-4E83-AAE8-6795CB4CC669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E9959B-F162-4E83-AAE8-6795CB4CC669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E9959B-F162-4E83-AAE8-6795CB4CC669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E9959B-F162-4E83-AAE8-6795CB4CC669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCF470C-4F79-4AC5-A460-33435FCC2AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFD00CF-8B0A-42E3-B151-3CDDFCE252E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29F8517-5241-4C09-BEF7-EA081D232755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29F8517-5241-4C09-BEF7-EA081D232755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29F8517-5241-4C09-BEF7-EA081D232755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29F8517-5241-4C09-BEF7-EA081D232755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6751C87-5B40-4926-9D0F-03BEC4C66BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09A804BB-D58A-4563-800A-31EA5BAEE4E2}
+	EndGlobalSection
+EndGlobal
